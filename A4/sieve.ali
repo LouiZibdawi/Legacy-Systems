@@ -1,0 +1,123 @@
+V "GNAT Lib v2017"
+M P W=b
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U sieve%b		sieve.adb		ceebf741 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-charac.ads		20170516105954 2d3ec45b ada.characters%s
+D a-chlat1.ads		20170516105952 66457d31 ada.characters.latin_1%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-string.ads		20170516105953 90ac6797 ada.strings%s
+D a-strmap.ads		20170516105953 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20170516105950 ecdfa332 ada.strings.unbounded%s
+D a-suteio.ads		20170516105949 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D sieve.adb		20180328184211 11de49d9 sieve%b
+D system.ads		20170516105953 085b6ffb system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20170516105955 0b705ca5 system.concat_3%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finmas.ads		20170516105954 7811a767 system.finalization_masters%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-imgint.ads		20170516105950 02dbe0c2 system.img_int%s
+D s-imglld.ads		20170516105956 f3220969 system.img_lld%s
+D s-memory.ads		20170516105953 597d6634 system.memory%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170516105955 9751b57e system.secondary_stack%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stalib.adb		20170516105948 f2fe2716 system.standard_library%b
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20170516105951 b16154c2 system.storage_pools%s
+D s-stposu.ads		20170516105949 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20170516105949 aedef97e system.stream_attributes%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-valint.ads		20170516105953 48a52a3f system.val_int%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 18|8r6 8r23 9r6 9r33 10r6 10r41 11r6 11r24
+X 2 a-calend.ads
+36K13*Calendar 395e17 18|11w10 11r28
+44I9*Time<213I9> 18|19r26
+58V13*Clock{44I9} 18|35s22 50s20
+105V14*"-"{duration} 18|51s24
+213I9 Time_Rep<long_long_integer>
+X 9 a-string.ads
+16K13*Strings 35e16 18|9r10 9r37 10r10 10r45
+X 11 a-strunb.ads
+76K21*Unbounded 490e26 18|9w18 9r45 10r18 10r53
+79R9*Unbounded_String<6|43R9> 474e14 18|14r11
+100V13*To_String{string} 18|30s26
+X 12 a-suteio.ads
+39K31*Text_IO 61e34 18|10w28 10r63
+50U14*Get_Line 18|28s5
+X 14 a-textio.ads
+49K13*Text_IO 471e16 18|8w10 8r27
+52P9*File_Type 18|18r12
+53n32*Out_File{53E9} 18|56r21
+86U14*Create 18|56s9
+259U14*Put_Line 18|61s17
+263U14*Put_Line 18|22s5 23s5 24s5 25s5 27s5 53s9
+X 18 sieve.adb
+13U11*sieve 13b11 66l5 66t10
+14r5 str{11|79R9} 28m14 30r36
+15i5 max{integer} 30m5 33r29 37r21 41r28
+15i10 j{integer} 40m17 41r23 42r29 43m21 43r26
+16i5 i{integer} 37r15 37r17 39r24 40r22 43r28 46m13 46r18
+17o5 ms{duration} 51m9 53r50
+18p5 fPtr{14|52P9} 56m16 56r16 61r26
+19i5 startTime{2|44I9} 35m9 51r26
+19i16 endTime{2|44I9} 50m9 51r16
+33a9 isPrime(boolean) 39r16 42m21 59r18 60r17
+59i13 i{integer} 60r25 61r46
+X 19 system.ads
+67M9*Address
+X 29 s-memory.ads
+53V13*Alloc{19|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{19|67M9} 105i<c,__gnat_realloc>22
+X 35 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
